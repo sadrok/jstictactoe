@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tic-tac-TOE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" media="screen" href="css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Playing Tic-Tac-Toe</h1>
+            <p>
+                <a class="btn btn-primary btn-lg" id='reset'>Reset</a>
+            </p>
+            <p>The current player: <span id="currentPlayer"></span></p>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+
+        <div>
+            <table class="tictactoe-table" align="center">
+                <tr>
+                    <td class="tictactoe-cell" data-cell='1'></td>
+                    <td class="tictactoe-cell" data-cell='2'></td>
+                    <td class="tictactoe-cell" data-cell='4'></td>
+                </tr>
+                <tr>
+                    <td class="tictactoe-cell" data-cell='8'></td>
+                    <td class="tictactoe-cell" data-cell='16'></td>
+                    <td class="tictactoe-cell" data-cell='32'></td>
+                </tr>
+                <tr>
+                    <td class="tictactoe-cell" data-cell='64'></td>
+                    <td class="tictactoe-cell" data-cell='128'></td>
+                    <td class="tictactoe-cell" data-cell='256'></td>
+                </tr>
+            </table>
+        </div>
+        <br>
+    </div>
+
+
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/myscripts.js"></script>
+</body>
+
+</html>
